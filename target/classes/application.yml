@@ -1,0 +1,29 @@
+  spring.application.name=house
+
+    spring.druid.url=jdbc:mysql://127.0.0.1:3306/house?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    spring.druid.username=root
+    spring.druid.password=123456
+    spring.druid.maxActive=20
+    spring.druid.minIdle=3
+    spring.druid.maxWait=10000
+    spring.druid.validationQuery=SELECT 'x'
+    spring.druid.timeBetweenEvictionRunsMillis=60000
+    spring.druid.minEvictableIdleTimeMillis=300000
+    spring.druid.borrowConnectionTimeout=30000
+spring:
+  application:
+    name: wulianmei
+  druid:
+    url: jdbc:mysql://127.0.0.1:3306/wulianmei?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123456
+    maxActive: 30
+    minIdle: 3
+    maxWait: 10000
+    validationQuery: SELECT 'x'
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    borrowConnectionTimeout: 30000
+server:
+  port: 8090
+
