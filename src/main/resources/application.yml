@@ -12,6 +12,7 @@ spring:
     timeBetweenEvictionRunsMillis: 60000
     minEvictableIdleTimeMillis: 300000
     borrowConnectionTimeout: 30000
+
 server:
   port: 8090
 

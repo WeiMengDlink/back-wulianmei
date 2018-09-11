@@ -2,6 +2,7 @@ package com.wulianmei.mwzhyf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * <Description> TODO <br>
@@ -13,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since V1.0 <br>
  */
 @SpringBootApplication
+@EnableSwagger2
 public class Application {
     /**
      *
